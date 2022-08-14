@@ -1,6 +1,6 @@
 --[[
 
-    MemeMeow Bot settings file
+    MemeMeow settings file
 
     Copyright (c) 2022, Jericho Crosby <jericho.crosby227@gmail.com>
 

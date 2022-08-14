@@ -1,6 +1,6 @@
 --[[
 
-    MemeMeow Bot OnTick file
+    MemeMeow OnTick file
 
     Copyright (c) 2022, Jericho Crosby <jericho.crosby227@gmail.com>
 

@@ -1,6 +1,6 @@
 --[[
 
-    MemeMeow Bot settings file (v1.0)
+    MemeMeow Entry Point file (v1.0)
 
     Designed using Discordia API (version 2.9.2) and Luvit 2.0 framework.
 

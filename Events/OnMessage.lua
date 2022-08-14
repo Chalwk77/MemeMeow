@@ -1,6 +1,6 @@
 --[[
 
-    MemeMeow Bot MessageHandler file
+    MemeMeow OnMessage file
 
     Copyright (c) 2022, Jericho Crosby <jericho.crosby227@gmail.com>
 
