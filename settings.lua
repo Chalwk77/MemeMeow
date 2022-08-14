@@ -9,7 +9,7 @@
 return {
 
     -- Discord Server ID:
-    discord_server_id = '984985170492944475',
+    discord_server_id = 'xxxxxxxxxxxxxxxxxx',
 
     -- End Point URL (string) of the chosen CatMeme API:
     --
@@ -17,14 +17,14 @@ return {
 
     -- Numerical ID of the channel where cat memes will be posted:
     --
-    channel = '985001316180971560',
+    channel = 'xxxxxxxxxxxxxxxxxx',
 
     -- How often will the bot post a cat meme (in seconds):
     -- Default: 3600 (1 hour)
     --
     duration = 3600,
 
-    -- Phrase that triggers a cat meme:
+    -- Phrase that triggers a cat meme (must be typed in the above channel):
     --
     phrase = 'meow',
 

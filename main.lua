@@ -14,8 +14,8 @@ local Discord = {
         ['./'] = { 'settings' },
         ['./Events/'] = {
             'OnTick',
-            'GetCatMeme',
-            'MessageHandler',
+            'GetMeme',
+            'OnMessage',
         },
     }
 }
@@ -30,7 +30,7 @@ setmetatable(Discord, {
     __index = client
 })
 
-function Discord:Ready()
+function Discord:OnReady()
     self.guild = client:getGuild(self.discord_server_id)
     if (self.guild) then
 
@@ -63,11 +63,11 @@ function Discord:HTTP_GET(url)
 end
 
 Discord:on('ready', function()
-    Discord:Ready()
+    Discord:OnReady()
 end)
 
 Discord:on('messageCreate', function(msg)
-    Discord:MessageHandler(msg)
+    Discord:OnMessage(msg)
 end)
 
 Discord:StartBot()

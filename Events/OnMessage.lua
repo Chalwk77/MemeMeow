@@ -16,7 +16,7 @@ local function StrSplit(s)
     return args
 end
 
-function Message:MessageHandler(msg)
+function Message:OnMessage(msg)
     local author = msg.author
     if (author and not author.bot and msg.channel.id == self.channel) then
         local args = StrSplit(msg.content)
